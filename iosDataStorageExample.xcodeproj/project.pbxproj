@@ -14,6 +14,9 @@
 		9B0F469F22CEB9820020A8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F469D22CEB9820020A8B0 /* LaunchScreen.storyboard */; };
 		9B0F46AA22CEB9820020A8B0 /* iosDataStorageExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F46A922CEB9820020A8B0 /* iosDataStorageExampleTests.swift */; };
 		9B0F46B522CEB9820020A8B0 /* iosDataStorageExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F46B422CEB9820020A8B0 /* iosDataStorageExampleUITests.swift */; };
+		9B0F46C322CEBB7E0020A8B0 /* flags-mini in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F46C222CEBB7E0020A8B0 /* flags-mini */; };
+		9B0F46C522CEBBCF0020A8B0 /* animals in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F46C422CEBBCF0020A8B0 /* animals */; };
+		9B0F46C722CEBDB70020A8B0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F46C622CEBDB70020A8B0 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9B0F46B022CEB9820020A8B0 /* iosDataStorageExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosDataStorageExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0F46B422CEB9820020A8B0 /* iosDataStorageExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosDataStorageExampleUITests.swift; sourceTree = "<group>"; };
 		9B0F46B622CEB9820020A8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0F46C222CEBB7E0020A8B0 /* flags-mini */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "flags-mini"; path = "../../flags-mini"; sourceTree = "<group>"; };
+		9B0F46C422CEBBCF0020A8B0 /* animals */ = {isa = PBXFileReference; lastKnownFileType = folder; name = animals; path = ../../animals; sourceTree = "<group>"; };
+		9B0F46C622CEBDB70020A8B0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +103,13 @@
 		9B0F469322CEB9810020A8B0 /* iosDataStorageExample */ = {
 			isa = PBXGroup;
 			children = (
+				9B0F46C422CEBBCF0020A8B0 /* animals */,
 				9B0F469422CEB9810020A8B0 /* AppDelegate.swift */,
 				9B0F469622CEB9810020A8B0 /* ViewController.swift */,
+				9B0F46C622CEBDB70020A8B0 /* WelcomeViewController.swift */,
 				9B0F469822CEB9810020A8B0 /* Main.storyboard */,
 				9B0F469B22CEB9820020A8B0 /* Assets.xcassets */,
+				9B0F46C222CEBB7E0020A8B0 /* flags-mini */,
 				9B0F469D22CEB9820020A8B0 /* LaunchScreen.storyboard */,
 				9B0F46A022CEB9820020A8B0 /* Info.plist */,
 			);
@@ -230,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B0F469F22CEB9820020A8B0 /* LaunchScreen.storyboard in Resources */,
+				9B0F46C522CEBBCF0020A8B0 /* animals in Resources */,
+				9B0F46C322CEBB7E0020A8B0 /* flags-mini in Resources */,
 				9B0F469C22CEB9820020A8B0 /* Assets.xcassets in Resources */,
 				9B0F469A22CEB9810020A8B0 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0F46C722CEBDB70020A8B0 /* WelcomeViewController.swift in Sources */,
 				9B0F469722CEB9810020A8B0 /* ViewController.swift in Sources */,
 				9B0F469522CEB9810020A8B0 /* AppDelegate.swift in Sources */,
 			);
